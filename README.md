@@ -12,7 +12,7 @@ Source: https://github.com/antojitos-ahumados/grist-webpage-viewer
 
 1. Choose **Add widget**.
 2. Choose **Custom**.
-3. Enter `https://antojitos-ahumados.github.io/grist-webpage-viewer/index.html`.
+3. Enter `https://antojitos-ahumados.github.io/grist-webpage-viewer/index.html`
 4. Set the access level to **Read selected table**.
 5. Map the **URL** column to the column that holds web addresses.
 
@@ -22,9 +22,9 @@ Link the widget to the table with **Select by**, or place it on the same table, 
 
 The mapped column may contain:
 
-- A full `http` or `https` address, such as `https://www.getgrist.com/`.
-- A bare domain and optional path with no scheme, such as `www.getgrist.com/`. It is loaded with `https`.
-- A Hyperlink value written as a label followed by a URL, such as `Docs https://www.getgrist.com/`. The trailing URL is used.
+- A full `http` or `https` address, such as `https://www.getgrist.com/`
+- A bare domain and optional path with no scheme, such as `www.getgrist.com/` (loaded with `https`)
+- A Hyperlink value written as a label followed by a URL, such as `Docs https://www.getgrist.com/` (the trailing URL is used)
 
 Only `http` and `https` addresses are loaded. Other schemes, including `javascript:` and `data:`, are refused. An empty cell, or a value that is not a web address, shows a short message instead of a page.
 
